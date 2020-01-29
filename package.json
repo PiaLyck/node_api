@@ -4,7 +4,9 @@
   "description": "Building RESTful Web Services with Node.js, Express and MongoDB, complete with unit and integration testing in Mocha and Sinon.js, and hypermedia for easy API navigation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,21 @@
   },
   "homepage": "https://github.com/PiaLyck/node_api#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": ["node_modules/**/node_modules"],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
   }
 }
