@@ -1,4 +1,4 @@
-# Full Node.js API to query, create, update and remove data
-Building RESTful Web Services with Node.js and Express, complete with unit and integration testing.
+# Full Node.js API
+Building RESTful Web Services with Node.js, Express and MongoDB, complete with unit and integration testing in Mocha and Sinon.js, and hypermedia for easy API navigation.
 
 Course by Jonathan Mills on Pluralsight
