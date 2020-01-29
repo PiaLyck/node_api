@@ -1,0 +1,22 @@
+{
+  "name": "node_api",
+  "version": "1.0.0",
+  "description": "Building RESTful Web Services with Node.js, Express and MongoDB, complete with unit and integration testing in Mocha and Sinon.js, and hypermedia for easy API navigation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiaLyck/node_api.git"
+  },
+  "author": "Pia Lyck Festersen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiaLyck/node_api/issues"
+  },
+  "homepage": "https://github.com/PiaLyck/node_api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
